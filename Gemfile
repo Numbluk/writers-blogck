@@ -1,4 +1,4 @@
-ruby File.read('.ruby-version').strip
+ruby '3.2.2'
 
 source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.
