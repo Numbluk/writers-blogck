@@ -1,0 +1,14 @@
+.post-header {
+  text-align: center;
+}
+
+header.post-header {
+  margin-top: 129px;
+  margin-bottom: 129px;
+}
+
+@media screen and (min-width: 800px) {
+  header.site-header div.wrapper {
+    max-width: calc(1000px - 30px * 2);
+  }
+}
