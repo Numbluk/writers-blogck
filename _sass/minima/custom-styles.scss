@@ -3,7 +3,7 @@
 }
 
 header.post-header {
-  margin-top: 129px;
+  margin-top: 70px;
   margin-bottom: 129px;
 }
 
@@ -11,4 +11,48 @@ header.post-header {
   header.site-header div.wrapper {
     max-width: calc(1000px - 30px * 2);
   }
+}
+
+header a, .site-title {
+  font-size: clamp(19px, 1.188rem + ((1vw - 3.2px) * 0.469), 22px);
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width:  600px) {
+  header .wrapper .site-nav {
+    top: clamp(48px, 9vw, 64px);
+    margin-top: 16px;
+  }
+}
+
+.site-header {
+  padding-top: clamp(48px, 9vw, 64px);
+  padding-bottom: 14vh;
+  border-bottom: 0;
+}
+
+#about-subtitle {
+  text-align: center;
+}
+
+hr.diamond {
+  background-color: transparent !important;
+  background: linear-gradient(90deg, currentColor 0%, currentColor calc(50% - 20px), transparent calc(50% - 20px), transparent calc(50% + 20px), currentColor calc(50% + 20px), currentColor 100%);
+  border: none;
+  height: 1px !important;
+  overflow: visible;
+  position: relative;
+  margin: 26px 0;
+}
+
+hr.diamond:before {
+  background-color: currentColor;
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 3.5px);
+  top: calc(50% - 3.5px);
+  height: 7px;
+  transform: rotate(45deg);
+  width: 7px;
 }
