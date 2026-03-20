@@ -1,0 +1,19 @@
+baseURL = "https://writersblogck.com/"
+languageCode = "en-us"
+title = "Writers Blogck"
+
+[params]
+  description = "Pessimistic about Tech. Realistic about leaving it. Optimistic about life."
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[markup]
+  [markup.highlight]
+    style = "solarized-light"
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true

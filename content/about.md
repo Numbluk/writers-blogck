@@ -1,7 +1,6 @@
 ---
-layout: page
-title: About
-permalink: /about/
+title: "About"
+url: "/about/"
 ---
 
 <h3 id="about-subtitle">Hi, my name is Lukas.</h3>
@@ -13,5 +12,3 @@ I work as a software engineering manager, but that's just my job. There are lots
 This site has a simple layout: scroll back in time to see older posts. At the moment, there is no search function.
 
 <em>N.B. My views are mine alone and do not represent my employer or any other entity.<em>
-
-
