@@ -1,0 +1,10 @@
+{
+  "disabledMcpjsonServers": [
+    "grafana"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(hugo server:*)"
+    ]
+  }
+}
